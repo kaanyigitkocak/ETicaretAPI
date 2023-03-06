@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ETicaretAPI.Application.Repositories.Customer
+namespace ETicaretAPI.Application.Repositories
 {
-    public interface ICustomerWriteRepository : IWriteRepository<Domain.Entities.Customer>
+    public interface ICustomerWriteRepository : IWriteRepository<Customer>
     {
     }
 }

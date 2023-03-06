@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Algos YK\\Desktop\\Projects\\GitHub\\ETicaretAPI\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj": {}
+    "C:\\Users\\Algos YK\\Desktop\\Projects\\GitHub\\Mini-E-Ticaret-API\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Algos YK\\Desktop\\Projects\\GitHub\\ETicaretAPI\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj": {
+    "C:\\Users\\Algos YK\\Desktop\\Projects\\GitHub\\Mini-E-Ticaret-API\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Algos YK\\Desktop\\Projects\\GitHub\\ETicaretAPI\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Algos YK\\Desktop\\Projects\\GitHub\\Mini-E-Ticaret-API\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj",
         "projectName": "ETicaretAPI.Domain",
-        "projectPath": "C:\\Users\\Algos YK\\Desktop\\Projects\\GitHub\\ETicaretAPI\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj",
+        "projectPath": "C:\\Users\\Algos YK\\Desktop\\Projects\\GitHub\\Mini-E-Ticaret-API\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj",
         "packagesPath": "C:\\Users\\Algos YK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Algos YK\\Desktop\\Projects\\GitHub\\ETicaretAPI\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Algos YK\\Desktop\\Projects\\GitHub\\Mini-E-Ticaret-API\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,14 +43,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.13, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
