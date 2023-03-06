@@ -1,3 +1,4 @@
+using ETicaretAPI.Domain.Entities.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,17 +7,21 @@ using System.Threading.Tasks;
 
 namespace ETicaretAPI.Application.Repositories
 {
-  public interface IWriteRepository<T> : IRepository<T> where T : class
-  {
+  public interface IWriteRepository<T> : IRepository<T> where T : BaseEntity
+    {
 
     Task<bool> AddAsync(T model);
 
-    Task<bool> AddAsync(List<T> model);
+    Task<bool> AddRangeAsync(List<T> datas);
 
-    Task<bool> UpdateAsync(T model);
+    bool Update(T model);
 
-    Task<bool> RemoveAsync(T model);
+    bool Remove(T model);
 
-    Task<bool> RemoveAsync(string Id);
+    Task<bool> RemoveAsync(int Id);
+
+    bool RemoveRange(List<T> datas);
+
+    Task<int> SaveAsync();
   }
 }
